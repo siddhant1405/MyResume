@@ -12,7 +12,7 @@ const app = express();
 // -------------------------
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? 'https://your-frontend.netlify.app' // ✅ Replace with your actual Netlify domain
+    ? 'https://myresume11405.netlify.app' 
     : 'http://localhost:3000',
   credentials: true
 }));
