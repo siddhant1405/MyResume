@@ -37,12 +37,13 @@ app.get('/api/health', (req, res) => {
 // -------------------------
 // 🔁 Fallback for unknown routes
 // -------------------------
-app.all('*', (req, res) => {
+app.use((req, res, next) => {
   res.status(404).json({
     success: false,
     message: `Route not found: ${req.originalUrl}`
   });
 });
+
 
 // -------------------------
 // ❌ Global error handler
