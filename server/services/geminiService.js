@@ -40,7 +40,7 @@ class GeminiService {
 You are a professional resume writer specializing in ATS optimization for computer science students. Convert the given resume data into an enhanced JSON format using the following memory context:
 
 MEMORY CONTEXT:
-1. API Integration: Experience with Exchange Rates API and Frankfurter for currency conversion and historical data
+1. API Integration: Experience with Gemini API and OpenAI API for resume generation
 2. AI Integration: Used Google's Gemini API to enhance resume generation with AI
 3. Version Control: Proficient with Git for version control and troubleshooting merge issues
 4. Error Handling: Expertise in troubleshooting JavaScript errors in React apps, especially with module exports and audio libraries
@@ -72,7 +72,6 @@ OUTPUT STRUCTURE:
       "institution": "Delhi Technological University (DTU)",
       "degree": "B.Tech in Software Engineering",
       "dates": "2022-2026",
-      "details": "Relevant coursework: Data Structures, Algorithms"
     }
   ],
   "experience": [
@@ -92,6 +91,7 @@ OUTPUT STRUCTURE:
       "description": [
         "● Bullet with purpose",
         "● Bullet with technologies"
+        "● Bullet with impact",
       ],
       "technologies": ["React", "MongoDB"],
       "link": "Project URL",
